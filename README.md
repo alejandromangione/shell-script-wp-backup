@@ -2,4 +2,4 @@
 
 To run:
 
-```wget -O - https://raw.githubusercontent.com/alejandromangione/shell-script-wp-backup/master/script/wp-backup.sh | bash```
+```bash <(curl -s https://raw.githubusercontent.com/alejandromangione/shell-script-wp-backup/master/script/wp-backup.sh)```
