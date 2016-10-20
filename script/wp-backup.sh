@@ -29,4 +29,4 @@ do
         path="/var/www/"$folder_wp
 done
 
-zip -r $now"-backup-wp-brasilct-files.zip" $path"/"
+zip -r $now"-backup-wp-files.zip" $path"/"
