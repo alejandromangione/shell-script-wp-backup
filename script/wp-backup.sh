@@ -8,9 +8,9 @@ echo "========================================================="
 now=$(date +'%Y-%m-%d-%H%M')
 
 echo "- Backup database"
+read -p "Enter host: " host_db
 read -p "Database name: " name_db
 read -p "Enter user: " user_db
-read -p "Enter host: " host_db
 
 mysqldump -h $host_db -u $user_db -p -R --opt $name_db > $now'_backup-dump-wp-db.sql'
 
